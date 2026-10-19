@@ -1,0 +1,8 @@
+pull_request_rules:
+  - name: VM7 exact copy tree isolation 261020
+    conditions:
+      - title = VM7_COPY_REVIEW_SCOPE_S_ONLY_261020
+    actions:
+      copy:
+        branches:
+          - release
